@@ -2,7 +2,7 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args:
   - functions
-  - deploy_01
+  - deploy
   - hello_world
   - --source=.
   - --trigger-http
